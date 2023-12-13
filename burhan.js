@@ -1,4 +1,4 @@
-function addTwoNumbers() {
+function addTwoNumbers(x,y) {
   console.log('i am here')
-  return 8
+  return x+y
 }
