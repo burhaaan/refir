@@ -1,6 +1,8 @@
 
 function addReferral(referralLink, email) {
+  console.log('here', referralLink)
   const referralsRef = admin.firestore().collection('Referrals')
+  console.log('yooo', referralsRef)
 
   // Add a new document with programName and subdomain
   referralsRef
