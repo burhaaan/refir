@@ -1,4 +1,3 @@
-const admin = require('firebase-admin')
 
 function addReferral(referralLink, email) {
   const referralsRef = admin.firestore().collection('Referrals')
